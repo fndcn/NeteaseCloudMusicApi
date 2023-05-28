@@ -1,0 +1,1 @@
+import{m as i}from"./musicList-08ec4ff9.js";import{q as c,f as l,g as r,o as n,s as u,A as m}from"./index-a595b5d7.js";import"./icon-846daeb3.js";const g={__name:"detailList",setup(f){const a=c(),s=l([]);r(()=>{o(a.params.id)});function o(e){m(e).then(t=>{document.title=t.name,s.value=t.tracks})}return(e,t)=>(n(),u(i,{list:s.value},null,8,["list"]))}};export{g as default};
